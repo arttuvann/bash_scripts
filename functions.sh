@@ -1,5 +1,13 @@
 #!/bin/bash
 
+########################################
+# Author:           Arttu Vanninen
+# Version:          not versioned
+# Date:             2023-05-06
+# Description:      General use functions for bash scripts.
+# Usage:            source functions.sh or . ./functions
+########################################
+
 ##############
 # Set variables
 ##############
