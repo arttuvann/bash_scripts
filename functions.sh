@@ -51,9 +51,10 @@ hello_world() {
 #
 # Arguments:
 #   $1: Name of folder, required
+#   $2, $3 etc: Name of folder, optional
 #
 # Returns:
-#   1 if folder name is not given
+#   1 if folder name is not given or, while iterating, empty name as one argument is found.
 #   0 otherwise
 create_folder() {
   for folder_name in "$@"; do
